@@ -8,7 +8,7 @@ every run), stdlib only, no network.
 """
 import os
 
-JOKE = "I asked my AI agent to review its own code. It approved it, merged it, and promoted itself to senior."
+JOKE = "My AI agent's code passed every test. It wrote the tests."
 
 def main():
     output_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
